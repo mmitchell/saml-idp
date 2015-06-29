@@ -1,11 +1,11 @@
 class SamlIdpController < SamlIdp::IdpController
 
   def idp_authenticate(email, password)
-    true
+    email
   end
 
   def idp_make_saml_response(user)
-    encode_SAMLResponse("you@example.com")
+    encode_SAMLResponse(user)
   end
 
 end

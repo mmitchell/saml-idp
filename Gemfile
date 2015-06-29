@@ -9,7 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'ruby-saml-idp'
+gem 'ruby-saml-idp', :github => 'mmitchell/ruby-saml-idp', :branch => 'master'
 
 group :development, :test do
   gem 'byebug'
